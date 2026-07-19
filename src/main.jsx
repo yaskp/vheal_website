@@ -406,6 +406,14 @@ function Contact() {
             <Sparkles size={20} />
             www.vhealpt.com
           </a>
+          <a href="https://maps.google.com/?q=420+The+Parkway,+Ste+L,+Greer+SC+29650" target="_blank" rel="noopener noreferrer">
+            <MapPin size={20} />
+            <span style={{ whiteSpace: 'pre-line' }}>
+              420 The Parkway{'\n'}
+              Ste L{'\n'}
+              Greer SC 29650
+            </span>
+          </a>
         </div>
       </div>
 
@@ -493,6 +501,7 @@ function App() {
       <footer className="site-footer">
         <img src="/logo-vheal.png" alt="" />
         <p>V Heal Physical Therapy Services</p>
+        <p>420 The Parkway, Ste L, Greer SC 29650</p>
         <p>Cash-based care, by appointment.</p>
       </footer>
     </>
